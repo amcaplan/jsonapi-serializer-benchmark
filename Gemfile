@@ -45,6 +45,7 @@ group :development do
   gem 'spring'
 end
 
+#gem 'jsonapi-serializers', github: 'amcaplan/jsonapi-serializers', branch: 'memoize-serializer-class'
 gem 'jsonapi-serializers'
 gem 'factory_girl_rails'
 
