@@ -48,3 +48,5 @@ end
 gem 'jsonapi-serializers'
 gem 'factory_girl_rails'
 
+gem 'benchmark-ips'
+
