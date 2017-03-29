@@ -6,7 +6,7 @@ FactoryGirl.define do
 
     trait :with_comments do
       after(:create) do |post, _|
-        FactoryGirl.create_list(:comment, 3, post: post)
+        FactoryGirl.create_list(:comment, 10, post: post)
       end
     end
   end
